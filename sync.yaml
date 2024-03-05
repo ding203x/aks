@@ -17,7 +17,7 @@ spec:
       - name: SECRET_USERNAME
         valueFrom:
           secretKeyRef:
-            name: ExampleSecret
+            name: foosecret
             key: username
   volumes:
     - name: secrets-store01-inline
